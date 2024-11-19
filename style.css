@@ -1,0 +1,840 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+body{
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+.background{
+    background-color: #efb6bd;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color:#963647;
+    font-size: larger;
+    font-weight:bold;
+    
+}
+
+.navbar-links 
+{
+    display:flex;
+    column-gap:20px;
+    
+    
+} 
+.navbar h1{
+    color:#fff;
+}  
+   
+.navbar-links p{
+    margin-left:40px;
+    
+}
+.navbar-menu-toggle{
+    padding-left: 50px;
+    margin-right:20px ;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color:#fff;
+}
+.navbar-links a:hover{
+    text-decoration:underline;
+    color:#fff;
+}
+.navbar-menu-toggle{
+    display:none;
+
+}
+/*side-navbar*/
+.side-navbar
+{
+    background-color: #963647;
+    width:50%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:-60%;
+    padding:20px;
+    color:white;
+    transition: 0.5s;
+}
+.side-navbar-link{
+    margin-bottom:30px;
+
+}
+.side-navbar-link a
+{
+    text-decoration:none;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+.side-navbar-link a:hover{
+    text-decoration:underline;
+}
+
+/*header*/
+.header{
+      display:flex;
+      justify-content: center;
+      gap:50px;
+      padding:50px;
+
+}
+.header-button
+{
+    margin-top:10px;
+    padding:20px;
+    background-color: #963647;
+    color:white;
+}
+
+.footer{
+    margin-top:2px;
+    padding:40px;
+    background-color:#963647;
+    color:#fff;
+    text-align: center;
+    
+}
+.footer-2 {
+    list-style-type: none;
+    padding-left: 0; /* Removes any default indentation */
+  }
+  .footer-2 a{
+    color:#fff;
+    font-size:bold;
+    font-weight: 800;
+  }
+
+  
+.footer-2 a{
+    text-decoration: none;
+}
+
+.footer1{
+    margin-top:40px;
+    padding:40px;
+    background-color:#963647;
+    color:#fff;
+    margin-top:1px;}
+    
+.footer-container{
+    padding-top: 20px;
+}   
+    
+    
+
+
+.container {
+    
+    background-size: cover;       /* Makes the image cover the entire body */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    color:#963647; /* Adjust text color for better readability on the background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    height: 80vh;
+    padding-bottom: 50px; 
+    
+    
+    
+    
+}
+
+.container h1 {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color to make it visible on the image */
+    font-size: 36px; /* Adjust the font size as needed */
+    margin: 0;
+    height: auto; /* Makes the height dynamic based on the content */
+    background-attachment: scroll; /* Ensures background moves with the content */ 
+    
+    
+    /* Remove default margin */
+}
+
+.container img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; /* This will ensure the image scales properly */
+}
+/* General Reset */
+
+/* General Reset */
+
+/* Set the background image for the body */
+.order {
+    background-image: url('image\ 21.webp');
+    background-size: cover;       /* Makes the image cover the entire element */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    color: #963647; /* Adjust text color for better readability on the background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    padding-top: 80px;
+}
+  
+
+
+/* Styling for the education section */
+.education-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+/* Each education entry's container */
+.education-entry {
+    flex: 1 1 22%; /* Adjust the width to 22% for a flexible layout */
+    min-width: 250px;
+    min-height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.7); /* Adds a white semi-transparent background to each entry */
+    margin-bottom: 15px;
+}
+
+/* Header for education entry */
+.education-entry h2 {
+    color: #963647;  /* Dark red color for the years */
+    margin-top: 0px;
+}
+
+/* Styling for degree, institution, GPA/percentage details */
+.education-entry h4 {
+    margin: 5px 0;
+    padding-top: 20px;
+}
+
+/* Padding inside the education details */
+.education {
+    padding-top: 20px;
+}
+
+/* Optionally, if you want to add spacing between rows of education entries */
+.education-entry p {
+    margin: 5px 0;
+}
+/* Set background image */
+/* Set background image */
+.order1 {
+    background-image: url('images57.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 150vh; /* Full viewport height */
+    height: auto; /* Makes the height dynamic based on the content */
+    background-attachment: scroll; /* Ensures background moves with the content */
+
+}
+
+
+
+/* Container for all content */
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    z-index: 1;
+}
+
+/* Individual topic box */
+.topic {
+    flex: 1 1 30%; /* Each topic box takes up 30% of the row */
+    min-width: 250px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for readability */
+    border-radius: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hide the content by default */
+.content1 {
+    display: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Checkbox to toggle visibility */
+.topic input[type="checkbox"] {
+    display: none;
+}
+
+/* Label that will toggle the checkbox (and content visibility) */
+.topic label {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.topic label:hover {
+    color: #963647;
+}
+
+/* When the checkbox is checked, show the content */
+.topic input[type="checkbox"]:checked + .content {
+    display: block;
+}
+
+/* Hover effect on the topic boxes */
+.topic:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    .topic {
+        flex: 1 1 48%; /* 48% width for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .topic {
+        flex: 1 1 100%; /* Full width for mobile */
+    }
+    
+}
+
+
+
+.order3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 50px;
+    color: #1d232c;
+    z-index:2;
+    margin-top:-5px;
+    
+}
+/* Flexbox layout for the parent div.number */
+.number {
+    display: flex;
+    flex-direction: column; /* Stack the super, super1, and super2 sections vertically */
+    align-items: flex-start;
+    background-image: url('image\ me.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 150vh; /* Full viewport height */
+    height: auto; /* Makes the height dynamic based on the content */
+    background-attachment: scroll; /* Ensures background moves with the content */
+    overflow-x: hidden;
+
+    
+    
+  }
+  .number1{
+    background-image: url('image\ me.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 150vh; /* Full viewport height */
+    height: auto; /* Makes the height dynamic based on the content */
+    background-attachment: scroll; /* Ensures background moves with the content */
+
+  }
+  
+  /* Flexbox for super, super1, and super2 sections: arranged in column */
+  .super,.super1,.super2,.certifications{
+    /* Stack content vertically */
+    width: 100%;
+    background-size: cover;  /* Ensure image covers the entire section */
+    background-position: center;  /* Center the image */
+    padding: 70px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight:bold;
+    
+    
+    
+  }
+  .super, .super1, .super2 {
+    /* Add some styles to your sections to make them more responsive */
+    width: 100%; /* Ensure sections take full width */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+}
+  .content-section h2{
+    color:#963647;
+  }
+  .project-description h2{
+    color:#963647
+  }
+  .project-description h3{
+    color:#963647
+  }
+  .certi h2{
+      color:#963647
+   }
+  
+   .certi{
+     background-color: rgba(255, 255, 255, 0.8);
+     border-radius: 20px;
+     padding:60px;
+    } 
+    .project-description {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 20px;
+    padding:30px;
+    padding-bottom:70px;
+  }
+  
+  .content-section{
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;  /* Ensure border-radius is applied */
+    margin-bottom: 20px;   /* Space between sections */
+    box-sizing: border-box; /* Make sure padding doesn't affect border-radius */
+}
+
+  .key-features,.technologies{
+      border-radius: 0px;
+  }
+     
+  
+ 
+  .super{
+    display:flex;
+    flex-direction:row;
+    padding-top:-20px;
+    margin-top: 20px;
+    
+  }
+  
+    
+  
+  .super1{
+    display:flex;
+    flex-direction:row;
+    
+   
+    
+  }
+  /* For the first section in super class */
+/*.super .content-section:nth-of-type(1) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+   
+    
+  }
+
+  .super1 .content-section:nth-of-type(2) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .super .content-section:nth-of-type(3) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  
+                     /* For the second section in super1 class */
+ /* .super1 .content-section:first-of-type {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;/* Remove all border-radius */
+/*  }
+  .super1 .content-section:last-of-type {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* For the third section in super1 class */
+ /* .super1 .content-section:last-of-type {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+*/  
+/* For the first .content-section in .super */
+.super .content-section:nth-of-type(1) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  /* For the second .content-section in .super */
+  .super .content-section:nth-of-type(2) {
+    border-radius: 0; /* Remove all border-radius */
+  }
+  
+  /* For the third .content-section in .super */
+  .super .content-section:nth-of-type(3) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* For the first .content-section in .super1 */
+  .super1 .content-section:nth-of-type(1) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  /* For the second .content-section in .super1 */
+  .super1 .content-section:nth-of-type(2) {
+    border-radius: 0; /* Remove all border-radius */
+  }
+  
+  /* For the third .content-section in .super1 */
+  .super1 .content-section:nth-of-type(3) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+ .super,.super1{
+    margin-top: -50px;
+ }  
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 768px) {
+    /* Stack the content vertically on smaller screens */
+    .content-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .content-section h4 p {
+      width: 100%;
+    }
+  }
+  /* Reset some default styles */
+
+
+/* Style for the first div (resume1) */
+.resume3{
+    padding-bottom:150px;
+}
+.resume3{
+    background-image: url('images\ 2.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-attachment: scroll; /* Ensures background moves with the content */
+    width:100%;
+}
+.resume1 h1 {
+    font-size: 26px;  /* Larger font size for the heading */
+    color: white;  /* Dark color for the text */
+    margin-bottom: 30px;  /* Space between the heading and the button */
+    font-weight: 600;  /* Make the text a bit bold */
+    line-height: 1.4; 
+    padding-left:570px ; /* Increase line height for better readability */
+    padding-top:160px;
+    
+}
+
+/* Styling for the navigation section */
+.resume2 {
+    display: flex;
+    justify-content: center;  /* Center the button horizontally */
+    align-items: center;  /* Align items vertically */
+}
+
+/* Button styling */
+.resume2 button {
+    background-color: #007bff;  /* Blue background */
+    color: white;  /* White text color */
+    padding: 14px 30px;  /* Add padding around the text */
+    font-size: 18px;  /* Set the font size */
+    font-weight: bold;  /* Make the text bold */
+    border: none;  /* Remove default button border */
+    border-radius: 8px;  /* Rounded corners */
+    cursor: pointer;  /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;  /* Smooth transition */
+    
+}
+
+/* Button hover effect */
+.resume2 button:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+    transform: scale(1.05);  /* Slightly enlarge the button */
+}
+
+/* Style for the link inside the button */
+#resumeLink {
+    text-decoration: none;  /* Remove underline from the link */
+    color: white;  /* White text inside the button */
+}
+
+/* Optional: Add focus effect for accessibility */
+.resume2 button:focus, #resumeLink:focus {
+    outline: none;  /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  /* Subtle blue glow on focus */
+}
+/* General Styles */
+
+
+/* Container */
+.container-fluid {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+.skills {
+    background-color: #fff;
+    padding: 60px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading-meta {
+    font-size: 16px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Skill Columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Technical Skills Section */
+.services {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.p-1 {
+    margin: 10px;
+    display: inline-block;
+}
+
+.p-1 i {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.p-1 i:hover {
+    color: #0056b3;
+}
+
+/* Server Side and Database Skills */
+.col-md-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+    margin-bottom: 30px;
+}
+
+.mb-4 {
+    margin-bottom: 30px;
+}
+
+#server-side,
+#backend,
+#cloud-services,
+#tools {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Soft Skills Section */
+.services.color-2 {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.services.color-2 h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Soft Skill Ratings */
+.text-success {
+    font-size: 18px;
+    color: #28a745;
+}
+
+.text-warning {
+    font-size: 18px;
+    color: #ffc107;
+}
+
+.text-danger {
+    font-size: 18px;
+    color: #dc3545;
+}
+
+.fas.fa-star, .fas.fa-star-half-alt {
+    color: #ffcc00;
+    margin-right: 5px;
+}
+
+/* Flex for Soft Skills Section */
+.row .col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Language Ratings */
+.text-warning {
+    color: #ffc107;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .skills h2 {
+        font-size: 28px;
+    }
+
+    .heading-meta {
+        font-size: 14px;
+    }
+
+    .p-1 i {
+        font-size: 1.5rem;
+    }
+
+    .services {
+        padding: 15px;
+    }
+
+    .text-success, .text-warning {
+        font-size: 16px;
+    }
+}
+
+
+
+
+/*  Media Query*/
+@media screen and (max-width:700px)
+{
+    .navbar-menu-toggle{
+        display:block;
+    }
+    .navbar-link
+    {
+        display:none;
+    }
+    .header-image
+    {
+        display:none;
+    }
+    .service-container-1{
+        display:none;
+    }
+    .service-container-2{
+        flex-direction:column;
+    }
+    .container h1{
+        z-index:-1
+    }
+    
+
+}
+
+
+
+
+
+
+
+  

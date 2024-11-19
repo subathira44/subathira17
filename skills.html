@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styllix</title>
+
+    <!--google fonts-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!--my css file-->
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="background">
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>My Portfolio</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"> <a href="aboutme.html">About Me</a></p>
+            <p class="navbar-link"><a href="education.html">Education</a></p>
+            <p class="navbar-link"><a href="skills.html">Skills</a></p>
+            <p class="navbar-link"> <a href="projects.html">Projects & certifications</a></p>
+            <p class="navbar-link"><a href="resume.html">Resume</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="side-navbar">
+            <p style="text-align:right" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+            </p>
+        
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"> <a href="aboutme.html">About Me</a></p>
+            <p class="side-navbar-link"><a href="education.html">Education</a></p>
+            <p class="side-navbar-link"><a href="skills.html">Skills</a></p>
+            <p class="side-navbar-link"> <a href="projects.html">Projects & certifications</a></p>
+            <p class="side-navbar-link"><a href="resume.html">Resume</a></p>
+        </div>
+        
+    </nav>
+    
+
+  <div class="order3"><h1 >Tech Topics Overview</h1></div>
+   <div class="order1">
+    <div class="container4">
+        <!-- HTML Section -->
+        <div class="topic">
+            <input type="checkbox" id="html-toggle">
+            <label for="html-toggle">HTML</label>
+            <div class="content">
+                <p>Having experience in HTML (Hypertext Markup Language) structures web content by using elements and forms which provides the skeleton for web pages by
+                   defining headings,paragraphs, links, images, and other content. HTML is essential for creating the basic layout of a website.</p>
+            </div>
+        </div>
+
+        <!-- CSS (Bootstrap) Section -->
+        <div class="topic">
+            <input type="checkbox" id="css-toggle">
+            <label for="css-toggle">CSS (Bootstrap)</label>
+            <div class="content">
+                <p>known about CSS (Cascading Style Sheets) defines the visual presentation of HTML elements and Bootstrap is a front-end framework that simplifies responsive web design by providing pre-built components like grids, buttons, and navigation bars. It uses flexbox and grid systems for creating adaptable and visually appealing layouts.</p>
+            </div>
+        </div>
+
+        <!-- JavaScript (React JS) Section -->
+        <div class="topic">
+            <input type="checkbox" id="js-toggle">
+            <label for="js-toggle">JavaScript (React JS)</label>
+            <div class="content">
+                <p>know JavaScript which is a programming language used for adding interactivity to web pages, such as handling user input and manipulating the DOM. React.js is a JavaScript library for building user interfaces, enabling component-based architecture with state management. React uses a virtual DOM for efficient updates and rendering.</p>
+            </div>
+        </div>
+
+        <!-- Python (MySQL .connector, Tkinter Basics, NumPy, Pandas, Flask) Section -->
+        <div class="topic">
+            <input type="checkbox" id="python-toggle">
+            <label for="python-toggle">Python (MySQL .connector, Tkinter, NumPy, Pandas, Flask)</label>
+            <div class="content">
+                <p><strong>MySQL .connector:</strong> A Python library for connecting and interacting with MySQL databases, executing SQL queries, and fetching data.</p>
+                <p><strong>Tkinter Basics:</strong> A Python library for building desktop GUI applications with simple widgets like buttons, labels, and text boxes.</p>
+                <p><strong>NumPy:</strong> A library for numerical computing in Python, offering array operations and mathematical functions.</p>
+                <p><strong>Pandas:</strong> A library for data manipulation and analysis, using data structures like DataFrames for handling large datasets efficiently.</p>
+                <p><strong>Flask:</strong> A micro web framework for Python that simplifies web app development with routing, templates, and request handling.</p>
+            </div>
+        </div>
+
+        <!-- Java (Basics and Intermediate Concepts) Section -->
+        <div class="topic">
+            <input type="checkbox" id="java-toggle">
+            <label for="java-toggle">Java (Basics & Intermediate Concepts)</label>
+            <div class="content">
+                <p>Java is an object-oriented programming language used for developing cross-platform applications. Basics include data types, loops, conditionals, and methods, while intermediate concepts focus on OOP (Inheritance, Polymorphism), exception handling, and collections. Java is widely used in enterprise applications and Android development.</p>
+            </div>
+        </div>
+
+        <!-- Agile Components Section -->
+        <div class="topic">
+            <input type="checkbox" id="agile-toggle">
+            <label for="agile-toggle">Agile Components (Git, GitHub, Bitbucket, Node.js, VS Code, PyCharm)</label>
+            <div class="content">
+                <p><strong>Git:</strong> A version control system that tracks changes in code, enabling collaboration and history management.</p>
+                <p><strong>GitHub/Bitbucket:</strong> Platforms for hosting Git repositories, enabling team collaboration and version control with features like pull requests and branching.</p>
+                <p><strong>Node.js:</strong> A JavaScript runtime environment for building scalable network applications, allowing server-side development using JavaScript.</p>
+                <p><strong>VS Code:</strong> A lightweight, extensible code editor for various programming languages, offering features like debugging and Git integration.</p>
+                <p><strong>PyCharm:</strong> An IDE for Python development, providing tools for code analysis, testing, and debugging.</p>
+            </div>
+        </div>
+
+        <!-- Database Management Section -->
+        <div class="topic">
+            <input type="checkbox" id="database-toggle">
+            <label for="database-toggle">MySQL & Oracle Database Management</label>
+            <div class="content">
+                <p><strong>MySQL:</strong> An open-source RDBMS used for managing structured data with SQL queries, supporting ACID transactions and scaling for web applications.</p>
+                <p><strong>Oracle Database:</strong> A commercial RDBMS that offers advanced features like clustering, partitioning, and data warehousing for enterprise applications.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+
+
+
+  <!--footer-->
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-box-1">
+       <h2 class="heading-text">Profile-links</h2>
+       <ul class="footer-2">
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/subathira-kumar/">https://www.linkedin.com/in/subathira-kumar/</a>  </li>
+        <li><strong>Email:</strong> <a href="mailto:subathiradgl@gmail.com">subathiradgl@gmail.com</a>  </li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/subathira-kumar">https://github.com/subathira-kumar</a> </li>
+      </ul> 
+      <p>@ 2024 my Portfolio.com</p>
+       </div>   
+      </div>
+    </div>
+    
+  </div>
+  
+        
+    <script src="index.js"></script>
+  </body>
+</html>
